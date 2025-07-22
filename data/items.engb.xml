@@ -1349,7 +1349,8 @@
         <enhancement description="+^10 $DMG_ELECTRICITY to all melee attacks">
             <powerup class="add_attack" damage="10" damagetype="dmg_electricity" life="-1">
                 <affecter attribute="powerup_scope">
-                    <scope scope_non_powers="true" />
+                    <scope scope_attack="punch"/>
+                    <scope scope_attack="kick"/>
                 </affecter>
             </powerup>
         </enhancement>
@@ -1530,7 +1531,8 @@
         <enhancement description="+^5 $DMG_ENERGY to all melee attacks">
             <powerup class="add_attack" damage="5" damagetype="dmg_energy" life="-1">
                 <affecter attribute="powerup_scope">
-                    <scope scope_non_powers="true" />
+                    <scope scope_attack="punch"/>
+                    <scope scope_attack="kick"/>
                 </affecter>
             </powerup>
         </enhancement>
@@ -1605,7 +1607,8 @@
         <enhancement description="+^10 $DMG_ELECTRICITY to all melee attacks">
             <powerup class="add_attack" damage="10" damagetype="dmg_electricity" life="-1">
                 <affecter attribute="powerup_scope">
-                    <scope scope_non_powers="true" />
+                    <scope scope_attack="punch"/>
+                    <scope scope_attack="kick"/>
                 </affecter>
             </powerup>
         </enhancement>
@@ -1614,7 +1617,8 @@
         <enhancement description="^5 $DMG_FIRE to all melee attacks">
             <powerup class="add_attack" damage="5" damagetype="dmg_fire" life="-1">
                 <affecter attribute="powerup_scope">
-                    <scope scope_non_powers="true" />
+                    <scope scope_attack="punch"/>
+                    <scope scope_attack="kick"/>
                 </affecter>
             </powerup>
         </enhancement>
