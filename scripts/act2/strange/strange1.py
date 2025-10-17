@@ -129,7 +129,8 @@ else
 endif
 ghost_ring = isActorOnTeam("drstrange" )
 if ghost_ring == 1
-     remove ( "soul_ring", "" )
+#     remove ( "soul_ring", "" )     <--DrStrange don't have soul ring in map file strange1.engb but the file is in models.
+     remove ( "cape_strange", "" )     #<--This removes Cloak of Levitation from DrStranges room if he's on team.
      remove ( "meditation_ring", "" )
 endif
 cameraFade(0.000, 0.000 )
